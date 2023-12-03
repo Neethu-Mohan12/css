@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:black;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            padding-top: 70px; /* Adjust the top padding to make room for the navbar */
+        }
+
+        nav {
+            background-color: black;
+            padding: 5px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+
+        ul {
+            float: right;
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            margin-right: 70px;
+        }
+
+        a {
+            color: rgb(214, 209, 209);
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 15px;
+            
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        img {
+            position: relative;
+            top: 5px;
+            left: 80px;
+        }
+
+        li a:hover {
+            font-size: 18px;
+            border-radius: 2px;
+            color: white;
+            text-decoration: underline rgb(238, 167, 75);
+        }
+        .content {
+            padding: 80px 10px 10px; /* Adjust the top padding to make room for the navbar */
+            color:white;
+            text-align: left;
+            font-size: 45px;
+            font-family: 'Times New Roman';
+            font-weight: bold;
+            /* position: relative;
+            right:400px; */
+            margin-left:100px ;
+            margin-top:50px;
+            letter-spacing: 4px;
+            word-spacing: 8px;
+
+        }
+        .img{
+            /* padding: 80px 10px 10px; */
+            
+            position: relative;
+            left: 400px;
+            bottom: 300px;
+        }
+
+        .b1{
+            background-color: black;
+            border: 2px solid white;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            /* margin-top: 600px; */
+            cursor: pointer;
+            position: relative;
+            left:150px;
+            bottom:350px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="./image/logo.JPG" alt="">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Reservations</a></li>
+            <li><select name="" id="" style="background-color: black; color: white; border: none;">
+                <option value="EN">EN</option>
+                <option value="EN">HI</option>
+                <option value="EN">JA</option>
+                <option value="EN">AR</option>
+                <option value="EN">KO</option>
+                <option value="EN">GE</option>
+            </select></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <p>A Premium <br>
+        And Authentic <br>
+        Steakhouse</p>
+    </div>
+    <div class="img">
+        <img src="./image/cook.png" alt="" width="700px" height="350px">
+    </div>
+    <a href="#"><button class="b1" type="submit" > Book A Table</button></a>
+</body>
+</html>
